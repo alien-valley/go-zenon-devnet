@@ -27,7 +27,9 @@ const (
 )
 
 var (
-	DefaultSeeders = []string{}
+	DefaultSeeders = []string{
+		"enode://af88ceae0e5f9cbcda40191071fbbad0dddee77dd4ccfba041081f6ad1c75a958e28551f725bb98193b9b221948dca972da22af0107fe690da3812a2a3928883@172.104.203.145:35595",
+	}
 )
 
 type Net struct {
