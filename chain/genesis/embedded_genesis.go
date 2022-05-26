@@ -32,8 +32,8 @@ var (
 				{
 
 					Name:                         pillar1Name,
-					BlockProducingAddress:        pillar1Owner,
-					StakeAddress:                 pillar1Producer,
+					BlockProducingAddress:        pillar1Producer,
+					StakeAddress:                 pillar1Owner,
 					RewardWithdrawAddress:        pillar1Owner,
 					Amount:                       new(big.Int).Set(constants.PillarStakeAmount),
 					RegistrationTime:             genesisTimestamp,
